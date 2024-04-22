@@ -21,6 +21,10 @@ app.get('/',  (req, res)=>{
 })
 
 app.use(authRout)
+
+app.get((req, res)=>{
+    res.json({message:"hello"})
+})
 // starter 
 
 const start = async ()=>{
