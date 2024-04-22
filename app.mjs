@@ -12,7 +12,7 @@ app.use(express.json())
 app.use(express.static('public'));
 
 // PORT 
-const PORT = process.env.PORT || 3030
+const PORT = process.env.PORT || 3000
 
 
 // ROUTS
